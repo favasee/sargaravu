@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>iPhone 14 Plus - 3</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./animation.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="parent-div">
+    <div class="node-82" id="id-82">
+      <!-- Ellipse 4 -->
+      <div class="node-83" id="id-83"></div>
+      <!-- Ellipse 1 -->
+      <div class="node-85" id="id-85"></div>
+      <!-- Rectangle 16 -->
+      <div class="node-84" id="id-84"></div>
+      <!-- Rectangle 22 -->
+      <div class="node-86" id="id-86"></div>
+      <!-- Rectangle 24 -->
+      <div class="node-87" id="id-87"></div>
+      <!-- Rectangle 28 -->
+      <div class="node-88" id="id-88"></div>
+      <!-- Rectangle 37 -->
+      <div class="node-89" id="id-89"></div>
+      <!-- Rectangle 38 -->
+      <div class="node-810" id="id-810"></div>
+      <!-- Rectangle 30 -->
+      <div class="node-811" id="id-811"></div>
+      <!-- SAR 1 -->
+      <div class="node-821" id="id-821">
+        <div class="nodeBg-821" id="id-bg-821"></div>
+      </div>
+      <!-- Rectangle 36 -->
+
+      <div input type="submit" value="submit" class="node-826" id="id-826"></div>
+      <!-- codes -->
+      <div class="node-812" id="id-812">
+        <span class="node-812-0">codes</span>
+      </div>
+      <!-- A -->
+      <div class="node-813" id="id-813">
+        <span class="node-813-0">A</span>
+      </div>
+      <!-- B -->
+      <div class="node-814" id="id-814">
+        <span class="node-814-0">B</span>
+      </div>
+      <!-- C -->
+      <div class="node-815" id="id-815">
+        <span class="node-815-0">C</span>
+      </div>
+      <!-- mark -->
+      <div class="node-816" id="id-816">
+        <span class="node-816-0">mark</span>
+      </div>
+      <!-- dots make perfection -->
+      <div class="node-817" id="id-817">
+        <span class="node-817-0">dots make perfection</span>
+      </div>
+      <!-- 104 -->
+
+      <form id="submit-form" action="">
+        <div class="node-824" id="id-824">
+          <span class="node-819-0"><input type="text"  name="program code" class="input" maxlength="" size="1.5"></span>
+        </div>
+        <!-- 20 -->
+
+        <div class="node-818" id="id-818">
+          <span class="node-818-0"><input type="text" name="A" class="input" placeholder="00" maxlength=""
+              size="1.5"></span>
+        </div>
+        <!-- 202 -->
+        <div class="node-819" id="id-819">
+          <span class="node-819-0"><input type="text" name="B" class="input" maxlength="" size="1.5"></span>
+        </div>
+        <!-- 203 -->
+        <div class="node-822" id="id-822">
+          <span class="node-822-0"><input type="text" name="C" class="input" maxlength="" size="1.5"></span>
+        </div>
+        <!-- Submit -->
+        <div class="node-827" id="id-827">
+          <span class="node-827-0">
+            <button type="submit" value="Submit" class="bbb">Submit </button></span>
+        </div>
+      </form>
+
+      <!-- JUDGING POINT -->
+      <div class="node-820" id="id-820">
+        <span class="node-820-0">JUDGING POINT</span><span class="node-820-1"> </span>
+      </div>
+      <!-- Program code -->
+      <div class="node-823" id="id-823">
+        <span class="node-823-0">Program code</span>
+      </div>
+
+      <!-- check results before submit -->
+      <div class="node-825" id="id-825">
+        <span class="node-825-0">check results before submit</span>
+      </div>
+
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+  <script>
+    $("#submit-form").submit((e) => {
+      e.preventDefault()
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbzNXzciiBM81U65iEkwJfAdt8oA0vvy2o_3H9hUWm_WpEyGvMxR3PVhDo9yBElYqIX_PA/exec",
+        data: $("#submit-form").serialize(),
+        method: "post",
+        success: function (response) {
+          alert("Form submitted successfully")
+          window.location.reload()
+          //window.location.href="https://google.com"
+        },
+        error: function (err) {
+          alert("Something Error")
+
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>
