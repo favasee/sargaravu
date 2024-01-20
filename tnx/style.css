@@ -1,0 +1,284 @@
+.parent-div {
+  width: 1080px;
+  height: 1921px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.node-5327 {
+  position: absolute;
+  width: 1080px;
+  height: 1921px;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: 3;
+  transform: rotate(0deg);
+  overflow: hidden;
+  border-radius: 0px 0px 0px 0px;
+  background: linear-gradient(
+    173.96deg,
+    #252524ff 0%,
+    #363636ff 52%,
+    #202020ff 100%
+  );
+}
+
+a { color: white; }
+
+.manu {
+
+  Position: absolute;
+  width: 501px;
+  height: 148px;
+  top: -2px;
+  left: 14px;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  border-radius: 43.06697463989258px 43.06697463989258px 43.06697463989258px 43.06697463989258px;
+  border-color: #009df8;
+  background: #009df8ff;
+  backdrop-filter: blur(2.0508081912994385px);
+  font-size: 60px;
+  color: white;
+}
+
+
+.node-5328 {
+  position: absolute;
+  width: 138.70623779296875px;
+  height: 143.70396423339844px;
+  top: 33.11416935036783px;
+  left: 213.15498202551618px;
+  opacity: 0;
+  z-index: 0;
+  transform: rotate(-0.9282980073487535deg);
+  border-radius: 50%;
+  background: -webkit-radial-gradient(
+    #ff820fff 0%,
+    #f0d800ff 0%,
+    #b56826ff 55%,
+    #6f441d5e 100%
+  );
+  filter: blur(20px);
+}
+.node-5329 {
+  position: absolute;
+  width: 187.20217895507812px;
+  height: 174.20956420898438px;
+  top: 177.50497463427462px;
+  left: 55.398912360365074px;
+  opacity: 0;
+  z-index: 1;
+  transform: rotate(-0.9282980073487535deg);
+  border-radius: 50%;
+  background: -webkit-radial-gradient(
+    #d6da2dc4 0%,
+    #f0d800ff 43%,
+    #f0d800ff 76%
+  );
+  filter: blur(20px);
+}
+.node-5330 {
+  position: absolute;
+  width: 428.90625px;
+  height: 399.13836669921875px;
+  top: 264.448180868847px;
+  left: 3.205102987747921px;
+  opacity: 0.6000000238418579;
+  z-index: 2;
+  transform: rotate(-0.9282980073487535deg);
+  border-radius: 50%;
+  background: -webkit-radial-gradient(
+    #d6da2dc4 0%,
+    #f0d800ff 43%,
+    #f0d800ff 100%
+  );
+  filter: blur(45.82278823852539px);
+}
+.node-5331 {
+  position: absolute;
+  width: 451.9841003417969px;
+  height: 420.614501953125px;
+  top: 1152.6338205912793px;
+  left: 679.3775575312359px;
+  opacity: 0.6000000238418579;
+  z-index: 3;
+  transform: rotate(-0.9282980073487535deg);
+  border-radius: 50%;
+  background: linear-gradient(
+    199.11deg,
+    #2d5edac4 0%,
+    #0018f0ff 43%,
+    #3000f0ff 76%
+  );
+  filter: blur(48.2883415222168px);
+}
+.node-5332 {
+  position: absolute;
+  width: 852.2891235351562px;
+  height: 1202.379638671875px;
+  top: 1771px;
+  left: 114px;
+  opacity: 0.019999999552965164;
+  z-index: 4;
+  transform: rotate(0deg);
+  border-radius: 77.26134490966797px 77.26134490966797px 77.26134490966797px
+    77.26134490966797px;
+  background: #ffffff57;
+  filter: blur(2.414417028427124px);
+  mix-blend-mode: soft-light;
+}
+.node-5335 {
+  position: absolute;
+  width: 521px;
+  height: 158px;
+  top: 3063px;
+  left: 280px;
+  opacity: 0.019999999552965164;
+  z-index: 7;
+  transform: rotate(0deg);
+  border-radius: 43.06697463989258px 43.06697463989258px 43.06697463989258px
+    43.06697463989258px;
+  background: #069cf3ff;
+  backdrop-filter: blur(2.0508081912994385px);
+}
+.node-5333 {
+  position: absolute;
+  width: 663px;
+  height: 116px;
+  top: 2555px;
+  left: 220px;
+  opacity: 0.019999999552965164;
+  z-index: 5;
+  transform: rotate(0deg);
+  text-align: center;
+  line-height: 0px;
+}
+.node-5333-0 {
+  font-size: 47.2883415222168px;
+  font-family: Inter;
+  font-weight: 500;
+
+  text-decoration: none;
+  text-transform: capitalize;
+
+  line-height: 48.2883415222168px;
+  color: #ffffffff;
+}
+
+.node-5334 {
+  position: absolute;
+  width: 501px;
+  height: 119px;
+  top: 2402px;
+  left: 302px;
+  opacity: 0.019999999552965164;
+  z-index: 6;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.node-5334-0 {
+  font-size: 97.02533721923828px;
+  font-family: Inter;
+  font-weight: 500;
+
+  text-decoration: none;
+  text-transform: capitalize;
+
+  line-height: 98.02533721923828px;
+  color: #ffffffff;
+}
+
+.node-5336 {
+  position: absolute;
+  width: 381px;
+  height: 79px;
+  top: 3107px;
+  left: 350px;
+  opacity: 0.019999999552965164;
+  z-index: 8;
+  transform: rotate(0deg);
+  text-align: left;
+  line-height: 0px;
+}
+.node-5336-0 {
+  font-size: 63.9422607421875px;
+  font-family: Inter;
+  font-weight: 500;
+
+  text-decoration: none;
+  text-transform: capitalize;
+
+  line-height: 64.9422607421875px;
+  color: #ffffffff;
+}
+
+.node-5337 {
+  position: absolute;
+  width: 307px;
+  height: 304px;
+  top: 2033px;
+  left: 399px;
+  opacity: 0.019999999552965164;
+  z-index: 9;
+  transform: rotate(0deg);
+}
+.nodeBg-5338 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  background-color: transparent;
+  background-size: contain;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAQSURBVHgBAQUA+v8AAAAAAAAFAAFkeJU4AAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.node-5338 {
+  position: absolute;
+  width: 307px;
+  height: 304px;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  z-index: 0;
+  transform: rotate(0deg);
+  transform-origin: 0px 0px;
+  overflow: hidden;
+}
+.nodeBg-6822 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+  background-color: transparent;
+  background-size: contain;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAQSURBVHgBAQUA+v8AAAAAAAAFAAFkeJU4AAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.node-6822 {
+  position: absolute;
+  width: 127.05094909667969px;
+  height: 102.83649444580078px;
+  top: 98.87652587890625px;
+  left: 92.27617645263672px;
+  opacity: 1;
+  z-index: 1;
+  transform: rotate(0deg);
+  transform-origin: 0px 0px;
+  overflow: hidden;
+}
